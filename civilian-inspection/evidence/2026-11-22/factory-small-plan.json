@@ -1,0 +1,36 @@
+{
+  "assignments": [
+    {
+      "finish_ms": 1000,
+      "start_ms": 0,
+      "task_id": "decode-frame",
+      "worker_id": "edge-a"
+    },
+    {
+      "finish_ms": 3500,
+      "start_ms": 1000,
+      "task_id": "inspect-label",
+      "worker_id": "edge-a"
+    },
+    {
+      "finish_ms": 4000,
+      "start_ms": 1000,
+      "task_id": "inspect-surface",
+      "worker_id": "edge-b"
+    },
+    {
+      "finish_ms": 7500,
+      "start_ms": 4000,
+      "task_id": "inspect-packaging",
+      "worker_id": "edge-a"
+    },
+    {
+      "finish_ms": 9500,
+      "start_ms": 7500,
+      "task_id": "review-anomaly",
+      "worker_id": "edge-a"
+    }
+  ],
+  "scenario_id": "local-image-inspection",
+  "schema": "civilian-inspection-plan/v1"
+}

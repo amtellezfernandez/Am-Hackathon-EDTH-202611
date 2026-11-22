@@ -1,0 +1,27 @@
+{
+  "benchmark_cases": 24,
+  "exhaustive_integer_grid_oracle_cases": 88,
+  "fresh_folder_without_site_packages": "passed",
+  "independently_replayed_plans": 48,
+  "job_execution_performed": false,
+  "measured_sources_sha256": "082e13ef77b7b2fd9a310b2d9c93fcd900890be0406064e4b65f8fe11fa33dd2",
+  "official_leaderboard_submission": false,
+  "python39_runtime_executed": false,
+  "python39_syntax_checked_files": 17,
+  "python_runtime": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "same_file_and_invalid_output_retention": "passed",
+  "schema": "civilian-inspection-validation/v1",
+  "search_limits": {
+    "max_states": 5000,
+    "time_limit_s": 0.2
+  },
+  "searches_reporting_optimal_proven": 8,
+  "searches_reporting_state_cutoff": 0,
+  "searches_reporting_time_cutoff": 8,
+  "tamper_replay_regressions": "passed",
+  "unit_tests": {
+    "command": "python3 -m unittest discover -s tests -v",
+    "passed": 88,
+    "skipped": 0
+  }
+}
