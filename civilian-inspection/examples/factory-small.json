@@ -1,0 +1,115 @@
+{
+  "energy_cost_per_mwh": 1,
+  "horizon_ms": 15000,
+  "scenario_id": "local-image-inspection",
+  "schema": "civilian-inspection/v1",
+  "tasks": [
+    {
+      "deadline_ms": 5000,
+      "dependencies": [],
+      "id": "decode-frame",
+      "modes": [
+        {
+          "duration_ms": 1000,
+          "energy_mwh": 3,
+          "worker_id": "edge-a"
+        }
+      ],
+      "release_ms": 0,
+      "reward": 0
+    },
+    {
+      "deadline_ms": 7000,
+      "dependencies": [
+        "decode-frame"
+      ],
+      "id": "inspect-label",
+      "modes": [
+        {
+          "duration_ms": 2500,
+          "energy_mwh": 9,
+          "worker_id": "edge-a"
+        },
+        {
+          "duration_ms": 1500,
+          "energy_mwh": 11,
+          "worker_id": "edge-b"
+        }
+      ],
+      "release_ms": 0,
+      "reward": 60
+    },
+    {
+      "deadline_ms": 9000,
+      "dependencies": [
+        "decode-frame"
+      ],
+      "id": "inspect-surface",
+      "modes": [
+        {
+          "duration_ms": 6000,
+          "energy_mwh": 16,
+          "worker_id": "edge-a"
+        },
+        {
+          "duration_ms": 3000,
+          "energy_mwh": 14,
+          "worker_id": "edge-b"
+        }
+      ],
+      "release_ms": 0,
+      "reward": 90
+    },
+    {
+      "deadline_ms": 14000,
+      "dependencies": [],
+      "id": "inspect-packaging",
+      "modes": [
+        {
+          "duration_ms": 3500,
+          "energy_mwh": 10,
+          "worker_id": "edge-a"
+        }
+      ],
+      "release_ms": 4000,
+      "reward": 70
+    },
+    {
+      "deadline_ms": 15000,
+      "dependencies": [
+        "inspect-surface"
+      ],
+      "id": "review-anomaly",
+      "modes": [
+        {
+          "duration_ms": 2000,
+          "energy_mwh": 8,
+          "worker_id": "edge-a"
+        },
+        {
+          "duration_ms": 2000,
+          "energy_mwh": 9,
+          "worker_id": "edge-b"
+        }
+      ],
+      "release_ms": 0,
+      "reward": 80
+    }
+  ],
+  "workers": [
+    {
+      "activation_cost": 5,
+      "available": true,
+      "available_from_ms": 0,
+      "energy_budget_mwh": 35,
+      "id": "edge-a"
+    },
+    {
+      "activation_cost": 8,
+      "available": true,
+      "available_from_ms": 0,
+      "energy_budget_mwh": 25,
+      "id": "edge-b"
+    }
+  ]
+}

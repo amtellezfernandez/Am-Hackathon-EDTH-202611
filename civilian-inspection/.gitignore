@@ -1,0 +1,6 @@
+__pycache__/
+*.py[cod]
+/reports/
+/scenario.json
+/plan.json
+/baseline.json

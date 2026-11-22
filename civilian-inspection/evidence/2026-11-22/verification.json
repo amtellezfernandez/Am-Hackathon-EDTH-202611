@@ -1,0 +1,26 @@
+{
+  "cases_verified": 24,
+  "files_verified": 100,
+  "leaderboard_compatible": false,
+  "optimization_rerun": false,
+  "plans_verified": 48,
+  "source_identities_verified": true,
+  "summary": {
+    "baseline_elapsed_s": 0.03658725997956935,
+    "baseline_score": 27411,
+    "cases": 24,
+    "delta_score": 7912,
+    "losses": 0,
+    "planner_elapsed_s": 2.256253496998397,
+    "planner_max_elapsed_s": 0.20124471799499588,
+    "planner_median_elapsed_s": 0.07448201350052841,
+    "planner_score": 35323,
+    "score_ratio": 1.2886432454124257,
+    "ties": 1,
+    "valid_baseline_plans": 24,
+    "valid_planner_plans": 24,
+    "wins": 23
+  },
+  "timings_or_solver_optimality_verified": false,
+  "valid": true
+}

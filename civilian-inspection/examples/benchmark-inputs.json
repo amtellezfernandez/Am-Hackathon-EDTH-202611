@@ -1,0 +1,175 @@
+{
+  "cases": [
+    {
+      "scenario_id": "inspection-development-small-11",
+      "seed": 11,
+      "sha256": "fdf32cfff363f986681808d9c69cb3127ff99ceb6231f3c6e33149ceab444b9d",
+      "split": "development",
+      "tier": "small"
+    },
+    {
+      "scenario_id": "inspection-development-small-23",
+      "seed": 23,
+      "sha256": "a613ac8e20b9db6f22575177671b58a78e47e8ebe2166b5ad4d68772781385f0",
+      "split": "development",
+      "tier": "small"
+    },
+    {
+      "scenario_id": "inspection-development-small-37",
+      "seed": 37,
+      "sha256": "a7fd7b9ea05cb3f193d21eece4e3a8cfd31cf5345e504df40a8134ab9f16e1a3",
+      "split": "development",
+      "tier": "small"
+    },
+    {
+      "scenario_id": "inspection-development-small-53",
+      "seed": 53,
+      "sha256": "1fbc3600ee8cba0e1a28c5aaef55f00289369a6c50f526b35ded306e1c689256",
+      "split": "development",
+      "tier": "small"
+    },
+    {
+      "scenario_id": "inspection-development-medium-11",
+      "seed": 11,
+      "sha256": "04a48e5fc8064a84f102e99fc67245dbf7df8d1030338a96e7dc87961119767d",
+      "split": "development",
+      "tier": "medium"
+    },
+    {
+      "scenario_id": "inspection-development-medium-23",
+      "seed": 23,
+      "sha256": "d54feb0fb20c8ed4d3dadd6263e5d3317b84e21a624745884dd32ff43b2f8536",
+      "split": "development",
+      "tier": "medium"
+    },
+    {
+      "scenario_id": "inspection-development-medium-37",
+      "seed": 37,
+      "sha256": "2974eb53b34da7b3785ec2b726ed86b8c32c27514ed31105f337413c44952ef8",
+      "split": "development",
+      "tier": "medium"
+    },
+    {
+      "scenario_id": "inspection-development-medium-53",
+      "seed": 53,
+      "sha256": "7048b6368103cf3e3d30460ec5ecc42071d79342c6e221fc5e4c1164ec291ca2",
+      "split": "development",
+      "tier": "medium"
+    },
+    {
+      "scenario_id": "inspection-development-large-11",
+      "seed": 11,
+      "sha256": "cb64395ac663cb93e81de887a1d4650167fff64c69e5c362ba6a4bd479856f4e",
+      "split": "development",
+      "tier": "large"
+    },
+    {
+      "scenario_id": "inspection-development-large-23",
+      "seed": 23,
+      "sha256": "ddf5e62bd53b9c989927a8543dd1940760c4372399cb6011bacfbb6e5417925c",
+      "split": "development",
+      "tier": "large"
+    },
+    {
+      "scenario_id": "inspection-development-large-37",
+      "seed": 37,
+      "sha256": "35fe4e0a9450677fc06dc58492af86d0b42c50089227f06403290282c3861a8b",
+      "split": "development",
+      "tier": "large"
+    },
+    {
+      "scenario_id": "inspection-development-large-53",
+      "seed": 53,
+      "sha256": "f11ed9d209275106c8f84366fb2e97d038dd2cbe0c7e7d2151e8e21a48377cce",
+      "split": "development",
+      "tier": "large"
+    },
+    {
+      "scenario_id": "inspection-heldout-small-1009",
+      "seed": 1009,
+      "sha256": "a1d6f3fb0768d18ec87a9853980f0fe68ae639e7005bd101a4a3e5ba6cc08757",
+      "split": "heldout",
+      "tier": "small"
+    },
+    {
+      "scenario_id": "inspection-heldout-small-1019",
+      "seed": 1019,
+      "sha256": "2dec340f41d7f7c5a87ed7ff6234a696fc3ad6f61d4fb5d0b58fb0283014acf3",
+      "split": "heldout",
+      "tier": "small"
+    },
+    {
+      "scenario_id": "inspection-heldout-small-1031",
+      "seed": 1031,
+      "sha256": "176dbe1d8a70ba792826213a2aa46a2eacdea590065d747a2dd2ab6ffdb63c25",
+      "split": "heldout",
+      "tier": "small"
+    },
+    {
+      "scenario_id": "inspection-heldout-small-1049",
+      "seed": 1049,
+      "sha256": "0253db945914c30abedc31a469f26363c7601059f358b3bf9259ae00ee48e755",
+      "split": "heldout",
+      "tier": "small"
+    },
+    {
+      "scenario_id": "inspection-heldout-medium-1009",
+      "seed": 1009,
+      "sha256": "4a84148a3d77c67a1710ed5acbc30b8e37add2a22cf73493c4191f5ebefaa58c",
+      "split": "heldout",
+      "tier": "medium"
+    },
+    {
+      "scenario_id": "inspection-heldout-medium-1019",
+      "seed": 1019,
+      "sha256": "45639da7891e65b711c8816d7419176da72a297b0c1315f7ea4a10c460c1002a",
+      "split": "heldout",
+      "tier": "medium"
+    },
+    {
+      "scenario_id": "inspection-heldout-medium-1031",
+      "seed": 1031,
+      "sha256": "890fac4b0d5ac1d136389d1988fd2c6ec7aa05997bf23fa13c0fc1f3d96f1802",
+      "split": "heldout",
+      "tier": "medium"
+    },
+    {
+      "scenario_id": "inspection-heldout-medium-1049",
+      "seed": 1049,
+      "sha256": "88a65f00c546252b0a1eb944c08342450b6212230091bd91be79655244a1a6c2",
+      "split": "heldout",
+      "tier": "medium"
+    },
+    {
+      "scenario_id": "inspection-heldout-large-1009",
+      "seed": 1009,
+      "sha256": "bbbbb971c5c45d56ba0bde92f4e7fa652c223d0368dc19cccdfbae7cac765e01",
+      "split": "heldout",
+      "tier": "large"
+    },
+    {
+      "scenario_id": "inspection-heldout-large-1019",
+      "seed": 1019,
+      "sha256": "75dfb2bb0221107c69c8e31200aaddee8940cf7e2358de33510817fa05447f55",
+      "split": "heldout",
+      "tier": "large"
+    },
+    {
+      "scenario_id": "inspection-heldout-large-1031",
+      "seed": 1031,
+      "sha256": "0d040c83f7b0ede9e041d94f0e4c2930aa664ba2640743ae3bcf87dd643632d9",
+      "split": "heldout",
+      "tier": "large"
+    },
+    {
+      "scenario_id": "inspection-heldout-large-1049",
+      "seed": 1049,
+      "sha256": "9c72a94b2a45674e18f5474413c22332909b69b9596b607341a81a6139b7af59",
+      "split": "heldout",
+      "tier": "large"
+    }
+  ],
+  "generator_sha256": "aefd2b1e335bd7440b6aeeff31bd88e0aff64370424cff1520bb33a0d108c951",
+  "protocol_sha256": "bc02341bb48271b59d39a7b43e91393fd6117d1548c277136a52e29eef53d59c",
+  "schema": "civilian-inspection-frozen-inputs/v1"
+}

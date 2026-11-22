@@ -1,0 +1,17 @@
+{
+  "activation_cost": 13,
+  "completed_tasks": [
+    "decode-frame",
+    "inspect-label",
+    "inspect-packaging",
+    "inspect-surface",
+    "review-anomaly"
+  ],
+  "energy_cost": 44,
+  "energy_mwh": 44,
+  "reward": 300,
+  "score": 243,
+  "unscheduled_tasks": [],
+  "valid": true,
+  "violations": []
+}

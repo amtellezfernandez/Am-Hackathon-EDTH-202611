@@ -1,0 +1,188 @@
+{
+  "acceptance": "every plan valid, improved score at least baseline score",
+  "cases": [
+    {
+      "scenario_id": "inspection-development-small-11",
+      "seed": 11,
+      "split": "development",
+      "tier": "small"
+    },
+    {
+      "scenario_id": "inspection-development-small-23",
+      "seed": 23,
+      "split": "development",
+      "tier": "small"
+    },
+    {
+      "scenario_id": "inspection-development-small-37",
+      "seed": 37,
+      "split": "development",
+      "tier": "small"
+    },
+    {
+      "scenario_id": "inspection-development-small-53",
+      "seed": 53,
+      "split": "development",
+      "tier": "small"
+    },
+    {
+      "scenario_id": "inspection-development-medium-11",
+      "seed": 11,
+      "split": "development",
+      "tier": "medium"
+    },
+    {
+      "scenario_id": "inspection-development-medium-23",
+      "seed": 23,
+      "split": "development",
+      "tier": "medium"
+    },
+    {
+      "scenario_id": "inspection-development-medium-37",
+      "seed": 37,
+      "split": "development",
+      "tier": "medium"
+    },
+    {
+      "scenario_id": "inspection-development-medium-53",
+      "seed": 53,
+      "split": "development",
+      "tier": "medium"
+    },
+    {
+      "scenario_id": "inspection-development-large-11",
+      "seed": 11,
+      "split": "development",
+      "tier": "large"
+    },
+    {
+      "scenario_id": "inspection-development-large-23",
+      "seed": 23,
+      "split": "development",
+      "tier": "large"
+    },
+    {
+      "scenario_id": "inspection-development-large-37",
+      "seed": 37,
+      "split": "development",
+      "tier": "large"
+    },
+    {
+      "scenario_id": "inspection-development-large-53",
+      "seed": 53,
+      "split": "development",
+      "tier": "large"
+    },
+    {
+      "scenario_id": "inspection-heldout-small-1009",
+      "seed": 1009,
+      "split": "heldout",
+      "tier": "small"
+    },
+    {
+      "scenario_id": "inspection-heldout-small-1019",
+      "seed": 1019,
+      "split": "heldout",
+      "tier": "small"
+    },
+    {
+      "scenario_id": "inspection-heldout-small-1031",
+      "seed": 1031,
+      "split": "heldout",
+      "tier": "small"
+    },
+    {
+      "scenario_id": "inspection-heldout-small-1049",
+      "seed": 1049,
+      "split": "heldout",
+      "tier": "small"
+    },
+    {
+      "scenario_id": "inspection-heldout-medium-1009",
+      "seed": 1009,
+      "split": "heldout",
+      "tier": "medium"
+    },
+    {
+      "scenario_id": "inspection-heldout-medium-1019",
+      "seed": 1019,
+      "split": "heldout",
+      "tier": "medium"
+    },
+    {
+      "scenario_id": "inspection-heldout-medium-1031",
+      "seed": 1031,
+      "split": "heldout",
+      "tier": "medium"
+    },
+    {
+      "scenario_id": "inspection-heldout-medium-1049",
+      "seed": 1049,
+      "split": "heldout",
+      "tier": "medium"
+    },
+    {
+      "scenario_id": "inspection-heldout-large-1009",
+      "seed": 1009,
+      "split": "heldout",
+      "tier": "large"
+    },
+    {
+      "scenario_id": "inspection-heldout-large-1019",
+      "seed": 1019,
+      "split": "heldout",
+      "tier": "large"
+    },
+    {
+      "scenario_id": "inspection-heldout-large-1031",
+      "seed": 1031,
+      "split": "heldout",
+      "tier": "large"
+    },
+    {
+      "scenario_id": "inspection-heldout-large-1049",
+      "seed": 1049,
+      "split": "heldout",
+      "tier": "large"
+    }
+  ],
+  "comparison": "greedy_baseline and solve on identical parsed scenarios",
+  "default_max_states": 5000,
+  "default_time_limit_s": 0.2,
+  "development_seeds": [
+    11,
+    23,
+    37,
+    53
+  ],
+  "heldout_seeds": [
+    1009,
+    1019,
+    1031,
+    1049
+  ],
+  "holdout_note": "Public seed holdout fixed before solver measurements; this is not the original competition validation set or its hidden evaluation.",
+  "leaderboard_compatible": false,
+  "purpose": "Non-actuating local industrial image-processing schedules",
+  "repetitions": 1,
+  "schema": "civilian-inspection-benchmark-protocol/v1",
+  "score": "assigned task rewards - energy_cost_per_mwh * assigned energy_mwh - activation_cost of each used worker",
+  "tiers": {
+    "large": {
+      "horizon_ms": 90000,
+      "tasks": 64,
+      "workers": 4
+    },
+    "medium": {
+      "horizon_ms": 48000,
+      "tasks": 24,
+      "workers": 3
+    },
+    "small": {
+      "horizon_ms": 24000,
+      "tasks": 8,
+      "workers": 2
+    }
+  },
+  "timing_note": "Descriptive single-process timings, not a latency benchmark"
+}
